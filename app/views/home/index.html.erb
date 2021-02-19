@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Prateek Saraf -  Resume</title>
+
+<meta name="viewport" content="width=device-width"/>
+<meta name="description" content="The Curriculum Vitae of Joe Bloggs."/>
+<meta charset="UTF-8"> 
+
+<link type="text/css" rel="stylesheet" href="style.css">
+
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+
+<![endif]-->
+  <%= csrf_meta_tags %>
+  <%= csp_meta_tag %>
+
+  <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+</head>
+<body id="top">
+<div id="cv" class="instaFade">
+	<div class="mainDetails">
+		<div id="headshot" class="quickFade">
+      <%= image_tag('my pic.jpeg',alt: 'Prateek Saraf') %>
+<!--			<img src="headshot.jpg" alt="Alan Smith" />-->
+		</div>
+		
+		<div id="name">
+			<h1 class="quickFade delayTwo">Prateek Saraf</h1>
+			<h2 class="quickFade delayThree">Sr Software Engineer</h2>
+		</div>
+		
+		<div id="contactDetails" class="quickFade delayFour">
+			<ul>
+				<li> <a href="mailto:prateeksaraf2010@gmail.com" target="_blank">prateeksaraf2010@gmail .com</a></li>
+				<li> <a href="https://github.com/prateeksaraf2010">https://github.com/prateeksaraf2010</a></li>
+				<li> 7022982333</li>
+			</ul>
+		</div>
+		<div class="clear"></div>
+	</div>
+	
+	<div id="mainArea" class="quickFade delayFive">
+		<section>
+			<article>
+				<div class="sectionTitle">
+					<h1>Personal Profile</h1>
+				</div>
+				
+				<div class="sectionContent">
+					<p> Around 7 years of experience in engineering and solution consulting to various clients across the globe. My expertise has been around enterprise software engineering along with full stack development using Ruby on Rails</p>
+				</div>
+			</article>
+			<div class="clear"></div>
+		</section>
+		
+		
+		<section>
+			<div class="sectionTitle">
+				<h1>Work Experience</h1>
+			</div>
+			
+			<div class="sectionContent">
+				<article>
+					<h2>Sr. Software Engineer at Sopra Steria</h2>
+					<p class="subDetails">September 2020 - Present</p>
+					<p>Architecting solutions and leading a team of 10 around data platform , worked on designing and implementing automation frameworks for delivering the data platforms to client </p>
+				</article>
+				
+				<article>
+					<h2>Developer and Consultant at SAP</h2>
+					<p class="subDetails">March 2015 - September 2020</p>
+					<p>Lead a team of 3 for industry integration of Supply chain into Product platform , Refactored a legacy API using Object oriented paradigm to improve peformance and maintenance along with restructuring database to reduce data footprint</p>
+				</article>
+				
+				<article>
+					<h2>Associate Developer at CA Technologies</h2>
+					<p class="subDetails">June 2014 - March 2015</p>
+					<p>Developed solutions for business demand on procurement platform</p>
+				</article>
+			</div>
+			<div class="clear"></div>
+		</section>
+		
+		
+		<section>
+			<div class="sectionTitle">
+				<h1>Key Skills</h1>
+			</div>
+			
+			<div class="sectionContent">
+				<ul class="keySkills">
+					<li>Ruby on Rails</li>
+					<li>Database</li>
+          <li>Full stack</li>
+					<li>SAP HANA database</li>
+					<li>C++ and Java</li>
+					<li>Cloud Platform</li>
+          <li>Agile Methodologies</li>
+          <li>Object Oriented Programming</li>
+          <li>Git</li>
+          <li>Stakeholder management</li>
+          <li>People management</li>
+          <li>Engineering management</li>
+          <li>Architectural Design</li>
+          <li>Coaching and mentoring</li>
+          <li>TDD</li>
+
+				</ul>
+			</div>
+			<div class="clear"></div>
+		</section>
+		
+		
+		<section>
+			<div class="sectionTitle">
+				<h1>Education</h1>
+			</div>
+			
+			<div class="sectionContent">
+				<article>
+					<h2>VIT University,Vellore</h2>
+					<p class="subDetails">B.Tech Computer Science(2010-2014)</p>
+					<p>Graduated with a GPA of 9.2 and awarded with Student Achiever for outperforming in academics and extra curricular</p>
+				</article>
+				
+
+			</div>
+			<div class="clear"></div>
+		</section>
+		
+	</div>
+</div>
+
+</body>
+</html>
